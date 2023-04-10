@@ -11,7 +11,7 @@ function Header() {
         </div>
         <div className="header__right">
     <a href="#" className="extraClass">
-    <p className="res">Apply for access</p>
+        Apply for access
     </a>
           </div>
          </div>

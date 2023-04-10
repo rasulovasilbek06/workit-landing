@@ -35,6 +35,9 @@ h3,
 p {
     font-family: 'Manrope', sans-serif;
 }
+a {
+    font-family: 'Manrope', sans-serif;
+}
 
 a {
     color: black;
@@ -59,19 +62,20 @@ header {
         justify-content: space-between;
 
         .header__right {
-            p {
+            .extraClass {
                 font-weight: 700;
                 font-size: 1.8rem;
+                font-family: 600;
                 line-height: 3.2rem;
                 position: relative;
                 transition: all 0.3s ease;
             }
 
-            p:hover {
+            .extraClass:hover {
                 color: #44FFA1;
             }
 
-            p::before {
+            .extraClass::before {
                 content: "";
                 bottom: -2px;
                 left: 0;
@@ -293,20 +297,25 @@ footer {
     }
 }
 
-@media screen and (max-width:768px) {
-    .container {
-        padding: 0 38px;
-    }
-    .header__right {
-        .extraClass {
-            p {
-                font-size: 1rem; // not complated
-            }
-        }
-    }
-    .h-top {
-        h1 {
-            font-size: 1rem;
-        }
-    }
-}
+
+
+// @media only screen and (max-width:768px) {
+//     .container {
+//         padding: 0 38px;
+//     }
+//     .header__right {
+//         .extraClass {
+//             font-weight: 600;
+//             font-size: 10rem;
+//         }
+//     }
+//     .header--main {
+//         .h-top {
+//             h1 {
+//                 font-size: 1rem;
+//             }
+//         }
+//     }
+// }
+
+                           // Responsive not complated

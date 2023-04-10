@@ -36,6 +36,10 @@ p {
 }
 
 a {
+  font-family: "Manrope", sans-serif;
+}
+
+a {
   color: black;
   text-decoration: none;
 }
@@ -57,17 +61,18 @@ header .header-cover {
   margin-bottom: 57px;
   justify-content: space-between;
 }
-header .header-cover .header__right p {
+header .header-cover .header__right .extraClass {
   font-weight: 700;
   font-size: 1.8rem;
+  font-family: 600;
   line-height: 3.2rem;
   position: relative;
   transition: all 0.3s ease;
 }
-header .header-cover .header__right p:hover {
+header .header-cover .header__right .extraClass:hover {
   color: #44FFA1;
 }
-header .header-cover .header__right p::before {
+header .header-cover .header__right .extraClass::before {
   content: "";
   bottom: -2px;
   left: 0;
@@ -260,16 +265,4 @@ footer .f-bottom {
 footer .newClas {
   margin-left: 3rem;
   margin-right: 3rem;
-}
-
-@media screen and (max-width: 768px) {
-  .container {
-    padding: 0 38px;
-  }
-  .header__right .extraClass p {
-    font-size: 1rem;
-  }
-  .h-top h1 {
-    font-size: 1rem;
-  }
 }/*# sourceMappingURL=style.css.map */
